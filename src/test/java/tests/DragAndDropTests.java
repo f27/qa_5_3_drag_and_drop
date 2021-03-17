@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
-public class DragAndDropTest {
+public class DragAndDropTests {
     @BeforeAll
     static void setup() {
         Configuration.startMaximized = true;
